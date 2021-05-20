@@ -25,15 +25,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active text-weight-bold">
-          <a class="nav-link" href="#">Cars <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#cars">Cars <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item active">
-          <a class="nav-link text-weight-bold" href="#">Enquries<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-weight-bold" href="#enquries">Enquries<span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item active text-weight-bold">
-          <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#contactUs">Contact Us <span class="sr-only">(current)</span></a>
         </li>   
 
       </ul>      
@@ -49,7 +49,7 @@
     </div>
   <!--Jumbotron End -->
   <!--Car Listing Start-->
-  <div class="row">
+  <div class="row" id="cars">
     <div class="col">
       <p class="display-4 text-center text-weight-bold" >Car Listing<p>
     </div>
@@ -97,17 +97,17 @@
     
 <!--Card Sction End-->
 <!--Enquiries Start-->
-<div class="row justify-content-center">
-    <div class="col-10 bg-light">
-      <p class="display-4 text-center text-weight-bold" >Enquries<p>
+<div class="row justify-content-center" id="enquries">
+    <div class="col-10 bg-danger rounded-top ">
+      <p class="display-4 text-center text-weight-bold text-white" >Enquries<p>
     </div>
   </div>
 <!--Enquieries End-->
 <!--Form Start-->
-<div class="row justify-content-center">
-    <div class="col-10 bg-light">
+<div class="row justify-content-center my-5 ">
+    <div class="col-10 border">
         <form>
-            <div class="mb-3 row">
+            <div class="mb-3 row my-5">
                 <label for="exampleFormControlInput1" class="col-sm-2 col-form-label font-weight-bold">Full Name:</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="exampleFormControlInput1">
@@ -152,10 +152,35 @@
     </div>
 </div>
 
+<!--Contact Start-->
+<div class="row justify-content-center bg-dark border-white" id="contactUs">
+    <div class="col-10 border-white">
+      <p class="display-4 text-center text-weight-bold text-white" >Contact Us<p>
+      <p class= "text-white text-center">1, Lyon Park, Macquarie Park, NSW 2113</p>
+      <hr class="text-white">
+    </div>
+</div>
+<!--Contact End-->
+<!--Google Map Start-->
+<div class="row justify-content-center bg-dark ">
+    <div class="col-4 col-md-10 my-5 text-center map-responsive">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1658.0448481892531!2d151.12017632593592!3d-33.78418181585919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a60a6daa8a45%3A0xce5419946a3dec7a!2s1%20Lyonpark%20Rd%2C%20Macquarie%20Park%20NSW%202113!5e0!3m2!1sen!2sau!4v1621487564194!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+<!--Google map End-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
+
+<!--Footer Strat-->
+<div class="row justify-content-center bg-dark border-white">
+    <div class="col-10 border-white">
+      <p class= "text-white text-center">Copy Right. All Right Reserved 2021.</p>      
+    </div>
+</div>
+<!--Footer End-->
 </html>
